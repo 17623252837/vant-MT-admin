@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/vant-MT-admin.iml" filepath="$PROJECT_DIR$/.idea/vant-MT-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vant-mt-api/vant-mt-api.iml" filepath="$PROJECT_DIR$/vant-mt-api/vant-mt-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vant-mt-common/vant-mt-common.iml" filepath="$PROJECT_DIR$/vant-mt-common/vant-mt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vant-mt-database/vant-mt-database.iml" filepath="$PROJECT_DIR$/vant-mt-database/vant-mt-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vant-mt-dependencies/vant-mt-dependencies.iml" filepath="$PROJECT_DIR$/vant-mt-dependencies/vant-mt-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vant-mt-domain/vant-mt-domain.iml" filepath="$PROJECT_DIR$/vant-mt-domain/vant-mt-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vant-mt-mapper/vant-mt-mapper.iml" filepath="$PROJECT_DIR$/vant-mt-mapper/vant-mt-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vant-mt-service/vant-mt-service.iml" filepath="$PROJECT_DIR$/vant-mt-service/vant-mt-service.iml" />
+    </modules>
+  </component>
+</project>

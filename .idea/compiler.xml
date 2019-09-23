@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vant-mt-api" />
+        <module name="vant-mt-mapper" />
+        <module name="vant-mt-database" />
+        <module name="vant-mt-service" />
+        <module name="vant-mt-common" />
+        <module name="vant-mt-domain" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vant-MT-admin" target="1.8" />
+      <module name="vant-mt-api" target="1.8" />
+      <module name="vant-mt-common" target="1.8" />
+      <module name="vant-mt-database" target="1.8" />
+      <module name="vant-mt-dependencies" target="1.8" />
+      <module name="vant-mt-domain" target="1.8" />
+      <module name="vant-mt-mapper" target="1.8" />
+      <module name="vant-mt-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="vant-mt-api" options="-parameters" />
+      <module name="vant-mt-common" options="-parameters" />
+      <module name="vant-mt-database" options="-parameters" />
+      <module name="vant-mt-domain" options="-parameters" />
+      <module name="vant-mt-mapper" options="-parameters" />
+      <module name="vant-mt-service" options="-parameters" />
+    </option>
+  </component>
+</project>

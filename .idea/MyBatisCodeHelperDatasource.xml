@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="commonMapperBaseClass" value="com.hrh.mt.common.config.MyMapper" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.hrh.mt.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/vant-mt-database/src/main/java" />
+        <option name="javaModelPackage" value="com.hrh.mt.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/vant-mt-database/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="vant-mt-database" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="vant-mt-database">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.hrh.mt.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/vant-mt-database/src/main/java" />
+                  <option name="javaModelPacakge" value="com.hrh.mt.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/vant-mt-database/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.hrh.mt.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/vant-mt-database/src/main/java" />
+                  <option name="javaServicePackage" value="com.hrh.mt.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/vant-mt-database/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/vant-mt-database/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="vant-mt:mt_user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="MtUser" />
+                  <option name="moduleName" value="vant-mt-database" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useCommonMapper" value="true" />
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/vant-mt-database/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
