@@ -19,11 +19,8 @@
     <dependencies>
         <dependency>
             <groupId>tk.mybatis</groupId>
-            <artifactId>mapper</artifactId>
-            <version>4.1.4</version>
+            <artifactId>mapper-spring-boot-starter</artifactId>
         </dependency>
-
-
 
     </dependencies>
 
