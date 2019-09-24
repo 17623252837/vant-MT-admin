@@ -17,6 +17,17 @@ spring:
       # MySQL 8.x: com.mysql.cj.jdbc.Driver
       driver-class-name: com.mysql.cj.jdbc.Driver
 
+  redis:
+    host: 119.23.105.18
+    port: 6379
+    timeout: 3
+    # password:
+    pool:
+      minIdle: 1
+      maxIdle: 10
+      maxWait: 3
+      maxActive: 8
+
 mybatis:
   type-aliases-package: com.hrh.
   mapper-locations: classpath:mapper/*.xml
