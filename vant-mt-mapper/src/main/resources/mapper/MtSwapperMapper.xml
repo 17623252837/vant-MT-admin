@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrh.mt.mapper.MtSwapperMapper">
+  <resultMap id="BaseResultMap" type="com.hrh.mt.domain.MtSwapper">
+    <!--@mbg.generated generated on Mon Sep 30 10:22:50 CST 2019.-->
+    <id column="unid_swapper_id" jdbcType="VARCHAR" property="unidSwapperId" />
+    <result column="swapper_name" jdbcType="VARCHAR" property="swapperName" />
+    <result column="swapper_url" jdbcType="VARCHAR" property="swapperUrl" />
+    <result column="swapper_state" jdbcType="INTEGER" property="swapperState" />
+    <result column="swapper_href" jdbcType="VARCHAR" property="swapperHref" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Sep 30 10:22:50 CST 2019.-->
+    unid_swapper_id, swapper_name, swapper_url, swapper_state, swapper_href, create_date, 
+    update_date
+  </sql>
+</mapper>

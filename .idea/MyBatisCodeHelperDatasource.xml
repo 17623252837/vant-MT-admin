@@ -34,6 +34,16 @@
         </option>
         <option name="tableGenerateConfigs">
           <map>
+            <entry key="vant-mt:mt_swapper">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="MtSwapper" />
+                  <option name="moduleName" value="vant-mt-database" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
             <entry key="vant-mt:mt_user">
               <value>
                 <TableGenerateConfig>

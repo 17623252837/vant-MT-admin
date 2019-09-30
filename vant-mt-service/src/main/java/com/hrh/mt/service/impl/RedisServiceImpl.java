@@ -1,21 +1,36 @@
-package com.hrh.mt.common.utils;
+package com.hrh.mt.service.impl;
 
+import com.hrh.mt.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
 
-public class RedisUtil {
+/**
+ * @ProjectName: buy
+ * @Package: xiaoyoupai.buy.service.impl
+ * @ClassName: RedisServiceImpl
+ * @Author: break
+ * @Description:
+ * @Date: 2019/7/24 0024 下午 20:45
+ * @Version: 1.0
+ */
+
+@Service
+public class RedisServiceImpl implements RedisService {
+
     @Autowired
     private RedisTemplate redisTemplate;
 
 
+    @Override
     public void put(String key, Object value, long seconds) {
         redisTemplate.opsForValue().set(key, value, seconds, TimeUnit.SECONDS);
     }
 
+    @Override
     public Object get(String key) {
         return redisTemplate.opsForValue().get(key);
     }
-
 }
